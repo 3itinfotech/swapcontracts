@@ -1,7 +1,7 @@
 
 pragma solidity >=0.6.2;
 
-import './libraries/IMarsRouter01.sol';
+import 'https://github.com/3itinfotech/swapcontracts/blob/main/libraries/IMarsRouter01.sol';
 
 interface IMarsRouter02 is IMarsRouter01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
