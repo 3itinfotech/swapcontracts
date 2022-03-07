@@ -1,7 +1,9 @@
 
 pragma solidity >=0.5.0;
 
+import 'https://github.com/3itinfotech/swapcontracts/blob/main/interfaces/IMarsPair.sol';
 
+import 'https://github.com/3itinfotech/swapcontracts/blob/main/libraries/SafeMath.sol';
 
 library MarsLibrary {
     using SafeMath for uint;
